@@ -1,0 +1,19 @@
+.Dashboard{
+    height: 90vh;
+    overflow-x: scroll;
+    /* scrollbar-color: transparent transparent; */
+}
+.Dashboard::-webkit-scrollbar{
+    width: 0px;
+}
+.Dashboard .popup{
+    box-shadow: 10px solid gray;
+    transform: scale(1.05);
+    position: absolute;
+    inset: 2px;
+    
+}
+.Dashboard .dashboard-items{
+    position:  relative;
+    height: 90vh;
+}

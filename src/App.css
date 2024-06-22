@@ -1,38 +1,16 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-image: url("/public/to-doimag.jpg");
+  height: 100vh !important;
+  background-size: cover;
   color: white;
+  font-size: clamp(14px, 2vw, 18px);
+
 }
 
-.App-link {
-  color: #61dafb;
-}
+.App-Blur {
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  background: rgba(255, 255, 255, 0.048);
+  backdrop-filter: blur(1px);
+  height: inherit;
+  -webkit-backdrop-filter: blur(1px);
 }

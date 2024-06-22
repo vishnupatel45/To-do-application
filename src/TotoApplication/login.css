@@ -1,0 +1,6 @@
+.Login{
+    background: rgba(255, 255, 255, 0.027);
+    max-width: 500px;
+    -webkit-backdrop-filter: blur(1px);
+    backdrop-filter: blur(1px);
+}
